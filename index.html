@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Kevin Setiawan Miharjo Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet">
+    </head>
+
+
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/kevin_logow.png" alt="Kevin's profile photo">
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Portfolio</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I'm <strong>Kevin Setiawan Miharjo</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">{Data
+                <span class="txt-type" data-wait="3000" data-words='["Analyst", "Scientist"]'></span>}
+            </p>
+            <img src="img/kevin_dev.jpg" alt="Kevin Intro Picture" class="intro__img">
+
+        </section>
+
+        <!-- My Service -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Services</h2>
+            <p class="section__subtitle section__subtitle--services">
+                <emp>"Data is powerful enough to change the world"</emp>
+            </p>
+            <div class="services">
+                <div class="service">
+                    <i class="fas fa-search"></i>
+                    <h3>Data Analysis</h3>
+                    <p>I am specialized in analyzing data. Pattern, trends, and recommendations are
+                       clearly presented in report and presentation.
+                    </p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <i class="fas fa-database"></i>
+                    <h3>Data Management</h3>
+                    <p>Data collection, web-scraping, pre-processing, and manipulation. Development of
+                        automated workflows.
+                    </p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <i class="far fa-chart-bar"></i>
+                    <h3>Visualization</h3>
+                    <p>With help of programming languanges and tools, I can generate
+                       static infographics and charts based on findings and analysis results.
+                    </p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+
+            <a href="#work" class="btn">Portfolio</a>
+        </section>
+
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">About Me</h2>
+            <p class="section__subtitle section__subtitle--about">[<span class="txt-type1" data-wait="3000" data-words='["who", "profile", "biography"]'></span>]
+            </p>
+            <div class="about-me__body">
+                <p>Hi, my name is Kevin. I am currently a 2nd year student at Asia Pacific University, Malaysia.
+                   Pursuing a Bachelor's degree in science (Computer Science with a 
+                   specialism in Data Analytics) aiming to become a full fledged <strong>
+                   data analyst/scientist</strong> after I graduated.
+                </p>
+                <p>I have always been fascinated on exploring data sets and how unstructed data can be produced
+                    to gain insightful information, that's how I stumbled accross this field of work.
+                </p>
+                <p>I am currently interested in <strong>web-development</strong>, hence I am learning 
+                    HTML, CSS, and little bit of Javascript. I have always wanted to have my own website where I 
+                    can showcase my portfolio, which led me to the creation of this website.
+                </p>
+            </div>
+            <img src="img/kevin_profile.jpg" alt="Picture of Kevin" class="about-me__img">
+            <span class="about-me__deco">Bio</span>
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Portfolio</h2>
+            <p class="section__subtitle section__subtitle--work">Recent Works</p>
+
+            <div class="portfolio">
+                <!-- Portfolio work 01 -->
+                <div class="portfolio__anim">
+                    <a href="portfolio-item1.html" class="portfolio__item">
+                        <img src="img/py_logo.png" alt="" class="portfolio__img">
+                        <p class="portfolio__desc"><strong>Title</strong><br>Subtitle</p>
+                    </a>
+                </div>
+
+                <!-- Portfolio work 02 -->
+                <div class="portfolio__anim">
+                    <a href="portfolio-item2.html" class="portfolio__item">
+                        <img src="img/r_logo.png" alt="" class="portfolio__img">
+                        <p class="portfolio__desc"><strong>Title</strong><br>Subtitle</p>
+                    </a>
+                </div>
+
+                <!-- Portfolio work 03 -->
+                <div class="portfolio__anim">
+                    <a href="portfolio-item3.html" class="portfolio__item">
+                        <img src="img/c_logo.png" alt="" class="portfolio__img">
+                        <p class="portfolio__desc"><strong>Title</strong><br>Subtitle</p>
+                    </a>
+                </div>
+
+                <!-- Portfolio work 04 -->
+                <div class="portfolio__anim">
+                    <a href="portfolio-item4.html" class="portfolio__item">
+                        <img src="img/java_logo.png" alt="" class="portfolio__img">
+                        <p class="portfolio__desc"><strong>Title</strong><br>Subtitle</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:kevinmiharjo2002@gmail.com" class="footer__link">kevinmiharjo2002@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a href="https://www.instagram.com/kevin_setiawanm/" class="social-list__link" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://github.com/KeVV19" class="social-list__link" target="_blank"><i class="fab fa-github"></i></a>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://www.linkedin.com/in/kevin-setiawan-miharjo-20990b22b/" class="social-list__link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="assets/js/index.js"></script>
+        <script src="assets/js/typewriter.js"></script>
+
+    </body>
+</html>
