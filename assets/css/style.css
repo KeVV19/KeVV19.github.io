@@ -460,7 +460,8 @@ header {
         grid-template-areas: 
             "title img"
             "subtitle img"
-            "text img";
+            "text img"
+            "img deco;
         grid-column-gap: 2em;
     }
 
