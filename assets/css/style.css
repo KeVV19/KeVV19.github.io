@@ -442,17 +442,6 @@ header {
     box-shadow: var(--bs);
 }
 
-.about-me__deco {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    font-size: 400px;
-    color: var(--clr-darker);
-    z-index: -999;
-    font-weight: var(--fw-weakbold);
-    top: 2050px;
-}
-
 @media (min-width: 680px) {
     .about-me {
         display: grid;
@@ -460,8 +449,7 @@ header {
         grid-template-areas: 
             "title img"
             "subtitle img"
-            "text img"
-            "img deco;
+            "text img";
         grid-column-gap: 2em;
     }
 
@@ -484,12 +472,6 @@ header {
         grid-area: img;
         position: relative;
         z-index: 2;
-    }
-
-    .about-me__deco {
-        grid-area: deco;
-        right: 16px;
-        top: 1450px;
     }
 }
 
