@@ -346,9 +346,10 @@ header {
     box-shadow: var(--bs);
 }
 
-.section__subtitle--intro {
+/* .section__subtitle--intro,
+.section__subtitle--about {
     display: inline-block;
-}
+} */
 
 @media (min-width: 680px) {
     .intro {
