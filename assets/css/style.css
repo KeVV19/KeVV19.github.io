@@ -617,6 +617,7 @@ header {
 }
 
 .portfolio-item-individual img {
+    display: block;
     margin: auto;
     max-width: 500px;
     padding: 1em;
