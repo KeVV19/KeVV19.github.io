@@ -615,3 +615,9 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+.portfolio-item-individual img {
+    margin: auto;
+    max-width: 500px;
+    padding: 1em;
+}
