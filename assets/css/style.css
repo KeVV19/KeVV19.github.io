@@ -626,6 +626,10 @@ header {
     max-width: 75%;
 }
 
+.portfolio-item-individual video {
+    max-width: 100%;
+}
+
 @media (max-width: 680px) {
     .portfolio-item-individual img {
         max-width: 100%;
