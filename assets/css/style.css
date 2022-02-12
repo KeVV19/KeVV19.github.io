@@ -626,7 +626,7 @@ header {
     max-width: 75%;
 }
 
-.portfolio-item-individual video {
+.portfolio-item-individual iframe {
     max-width: 100%;
 }
 
