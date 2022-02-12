@@ -608,6 +608,7 @@ header {
     padding: 0 2em 2em;
     max-width: 1000px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .portfolio-item-individual p {
@@ -617,7 +618,9 @@ header {
 }
 
 .portfolio-item-individual img {
-    display: block;
+    /* display: block; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin: auto;
     max-width: 500px;
     padding: 1em;
