@@ -625,3 +625,9 @@ header {
     padding: 1em;
     max-width: 75%;
 }
+
+@media (max-width: 680px) {
+    .portfolio-item-individual img {
+        max-width: 100%;
+    }
+}
